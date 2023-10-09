@@ -1,0 +1,183 @@
+
+    @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&family=Ysabeau+Infant:wght@400;700&display=swap');
+    *{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Ubuntu', sans-serif;
+
+}
+li{
+    list-style: none;
+}
+body{
+    /* background-color: lightblue; */
+    
+    min-height: 100vh;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    /* align-items: center;
+    position: relative;
+    width: 100%;
+    background: #fff;
+    margin:40px;
+
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgba(0,0,0,0.1); */
+}
+.container .left{
+    position: relative;
+    background-color: #003147;
+    padding: 30px;
+}
+.profileText{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 8px;
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+    border: 1px solid transparent;
+}
+.profileText .imgBx{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border: 1px solid transparent;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.profileText .imgBx img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width:100%;
+    height: 100%;
+    border-radius: 50%;
+   object-fit: cover;
+}
+.profileText h2{
+    color: #fff;
+    font-size: 1.5rem;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.4rem;
+}
+.profileText h2 span{
+    font-size: 0.8rem;
+    font-weight: 300;
+}
+.contactInfo{
+    padding-top: 15px;
+}
+.title{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+
+}
+.contactInfo ul{
+    position: relative;
+}
+.contactInfo ul li{
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.contactInfo ul li span{
+    color: #fff;
+    font-weight: 300;
+}
+.contactInfo.education li{
+    margin-bottom: 15px;
+}
+.contactInfo.education h5{
+    color:#fff;
+    font-weight: 500;
+}
+.contactInfo.education h4{
+    color: #fff;
+    font-weight: 400;
+}
+#skillshow{
+    color:  #fff;
+    font-weight: 500;
+}
+.summary{
+    color:#000;
+    font-weight: 500;
+    margin-top: 20px;
+    padding: 10px;
+}
+/* =================right part=================== */
+.container .right{
+    position: relative;
+    background-color: #fff;
+    padding: 40px;
+}
+.projects{
+    border: 1px solid transparent;
+}
+.title2{
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    text-decoration: underline;
+}
+.projects li{
+    margin-top: 15px;
+    padding: 10px;
+    
+}
+.p-head{
+    font-size: 21px;
+    font-weight: 600;
+    
+}
+.experience{
+    border: 1px solid transparent;
+    margin-top: 15px;
+}
+.experience span{
+    color: rgb(74, 74, 74);
+    font-size: 16px;
+}
+.experience li{
+    margin-top: 15px;
+    padding: 10px;
+    
+}
+.acheivments{
+    border: 1px solid transparent;
+    margin-top: 15px;
+}
+.acheivments li{
+    margin-top: 15px;
+    padding: 10px;
+    
+}
+#printResume{
+    /* width:20%; */
+   display: flex;
+   justify-content: center;
+}
+@media print {
+    .no-print
+    {
+        display: none !important;
+    }
+}
+
+

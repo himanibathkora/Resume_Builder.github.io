@@ -1,0 +1,14 @@
+CREATE TABLE `resum` (
+  `id` int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+  `fn` varchar(100) NOT NULL,
+`mn` varchar(100) NOT NULL,
+`ln` varchar(100) NOT NULL,
+  `email` varchar(100) NOT NULL,
+  `ad` varchar(100) NOT NULL,
+`phone` varchar(100) NOT NULL,
+`atitle` varchar(100) NOT NULL,
+`ades` varchar(100) NOT NULL,
+`etitle` varchar(100) NOT NULL,
+`eorg` varchar(100) NOT NULL,
+`skill` varchar(100) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;

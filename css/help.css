@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+button{
+    font-size: 14.5px;
+    font-weight: 600;
+    margin: 10px;
+    padding: 1.4rem 1.6rem;
+    border-radius: 4px;
+    display: inline-block;
+
+    background-color: var(--clr-blue);
+    color: var(--clr-white);
+    border: 1px solid var(--clr-blue);
+    transition: var(--transition);
+}
+button a{
+    text-decoration: none;
+    color: #fff;
+
+}
+button:hover{
+    color: var(--clr-blue);
+    background-color: #6AC49C;
+    cursor:pointer;
+}
+button a:hover{
+    text-decoration: none;
+    color:var(--clr-blue);
+    
+
+}
+h1{
+    font-family:'Ubuntu', sans-serif ;
+    
+}
+body{
+    background-color: white;
+    min-height: 300vh;
+}
+.top{
+    border: 1px solid transparent;
+    display: flex;
+    background-color:  #6AC49C;
+    flex-wrap: wrap;
+}
+.top h1{
+    font-size:4.1rem;
+    margin: 15px;
+    word-spacing: 15px;
+}
+.top p{
+    font-size: 21px;
+    font-weight: 600;
+    color: rgb(52, 53, 53);
+}
+.left{
+    border: 1px solid transparent;
+    width: 60%;
+}
+.left-text{
+    border: 1px solid transparent;
+    width: 60%;
+    margin: 150px 50px 100px 200px;
+    text-align: center;
+}
+/* ============================================================ */
+.right{
+    border: 1px solid transparent;
+    width: 40%;
+}
+.right .imgBx{
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 370px;
+    height: 500px;
+    margin: 90px 40px 70px 50px;
+    overflow: hidden;
+    transition: all;
+    transition-duration: 0.6s;
+    box-shadow: 0 0 7px;
+    transition: cubic-bezier(0.68, -0.55, 0.265, 1.55) 0.4s;
+    /* box-shadow: -5px 5px 0px 0px yellow; */
+}
+.right .imgBx:hover{
+    /* transform: scale(1.1); */
+    transform: translate(10px, -10px) scale(1.1);
+    cursor:pointer;
+    box-shadow: -20px 10px;
+}
+
+.right .imgBx img{
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+}
+.main-text{
+    border: 1px solid transparent;
+    text-align: center;
+}
+.main-text h1{
+    font-size:2.5rem;
+    margin: 15px;
+    padding-top: 30px;
+    word-spacing: 5px;
+
+}
+.main-text p{
+    font-size: 21px;
+    font-weight: 600;
+    color: rgb(52, 53, 53);
+    padding-top: 20px;
+}
+
+/* ==============================instructions================================ */
+.instructions{
+    border: 1px solid transparent;
+    height: 70vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+.left2{
+    border: 1px solid transparent;
+    height: 90%;
+    width: 50%;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+   
+    
+}
+
+.num{
+    border: 1px solid transparent;
+    height: 130px;
+    width: 130px;
+    border-radius: 16px;
+    margin-top: 20px;
+    margin-left: 80%;
+    background-color: #51e2c2;
+    color: white;
+    text-align: center;
+     
+  
+}
+.num h1{  
+    padding: 25px; 
+    font-size: 6rem;
+    font-weight: 700;
+}
+.txt-card{
+    border: 1px solid transparent;
+    height: 55%;
+    width: 70%;
+    margin-top: 3%;
+    margin-left: 27%;
+    padding: 10px;
+    border-radius: 16px;
+    background-color: #f5f5f5;
+}
+.txt-card h1{
+    margin-top: 50px;
+    color: #313b47;
+    font-size: 2rem;
+}
+.txt-card p{
+    margin-top: 20px;
+    font-size: 1.4rem;
+}
+.right2{
+    border: 1px solid transparent;
+    height: 90%;
+    width: 50%;
+    margin-top: 20px;
+}
+.pic{
+    border: 1px solid transparent;
+    border-radius: 16px;
+    height: 90%;
+    width: 60%;
+    margin-top: 20px;
+    margin-left: 20px;
+    background-color: #51e2c2;
+  
+}
+.pic img{
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+}
+
